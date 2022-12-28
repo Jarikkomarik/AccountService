@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class AccountServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class AccountServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; AccountServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">10.705s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">start</td>
+<td class="success">10.705s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[1;31m
+Start test 1?[0m
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m :: Spring Boot ::                (v2.7.5)
+?[0m?[0;34m
+?[0m?[0;34m2022-12-28 17:21:21.887  INFO 46034 --- [    Test worker] account.AccountServiceApplication        : Starting AccountServiceApplication using Java 17.0.1 on Yoels-MacBook-Pro-4.local with PID 46034 (started by yoelufland in /Users/yoelufland/IdeaProjects/Account Service/Account Service/task)
+?[0m?[0;34m2022-12-28 17:21:21.896  INFO 46034 --- [    Test worker] account.AccountServiceApplication        : No active profile set, falling back to 1 default profile: &quot;default&quot;
+?[0m?[0;34m2022-12-28 17:21:24.137  INFO 46034 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2022-12-28 17:21:24.303  INFO 46034 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 4 JPA repository interfaces.
+?[0m?[0;34m2022-12-28 17:21:25.447  INFO 46034 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (https)
+?[0m?[0;34m2022-12-28 17:21:25.461  INFO 46034 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2022-12-28 17:21:25.461  INFO 46034 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+?[0m?[0;34m2022-12-28 17:21:25.642  INFO 46034 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2022-12-28 17:21:25.643  INFO 46034 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3622 ms
+?[0m?[0;34m2022-12-28 17:21:25.902  INFO 46034 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+?[0m?[0;34m2022-12-28 17:21:26.313  INFO 46034 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+?[0m?[0;34m2022-12-28 17:21:26.340  INFO 46034 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../service_db'
+?[0m?[0;34m2022-12-28 17:21:26.692  INFO 46034 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2022-12-28 17:21:26.744  INFO 46034 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+?[0m?[0;34m2022-12-28 17:21:26.940  INFO 46034 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+?[0m?[0;34m2022-12-28 17:21:27.051  INFO 46034 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+?[0m?[0;34mHibernate: create table security_event (id bigint not null, action integer, date date, object varchar(255), path varchar(255), subject varchar(255), primary key (id))
+?[0m?[0;34mHibernate: create table user_group (id bigint generated by default as identity, name varchar(255) not null, primary key (id))
+?[0m?[0;34mHibernate: create table users (id bigint not null, email varchar(255) not null, is_locked boolean not null, last_name varchar(255), name varchar(255), password varchar(255) not null, primary key (id))
+?[0m?[0;34mHibernate: create table users_roles (users_id bigint not null, roles_id bigint not null, primary key (users_id, roles_id))
+?[0m?[0;34mHibernate: create table user_salary_record (employee varchar(255) not null, period varbinary(255) not null, salary bigint not null check (salary&gt;=0), primary key (employee, period))
+?[0m?[0;34mHibernate: alter table user_group drop constraint if exists UK_kas9w8ead0ska5n3csefp2bpp
+?[0m?[0;34mHibernate: alter table user_group add constraint UK_kas9w8ead0ska5n3csefp2bpp unique (name)
+?[0m?[0;34mHibernate: create sequence hibernate_sequence start with 1 increment by 1
+?[0m?[0;34mHibernate: alter table users_roles add constraint FKotwr8epxk6p2iu8oc6a35shr3 foreign key (roles_id) references user_group
+?[0m?[0;34mHibernate: alter table users_roles add constraint FKml90kef4w2jy7oxyqv742tsfc foreign key (users_id) references users
+?[0m?[0;34m2022-12-28 17:21:28.060  INFO 46034 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+?[0m?[0;34m2022-12-28 17:21:28.068  INFO 46034 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34mHibernate: insert into user_group (id, name) values (default, ?)
+?[0m?[0;34mHibernate: insert into user_group (id, name) values (default, ?)
+?[0m?[0;34mHibernate: insert into user_group (id, name) values (default, ?)
+?[0m?[0;34mHibernate: insert into user_group (id, name) values (default, ?)
+?[0m?[0;34m2022-12-28 17:21:29.171  WARN 46034 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2022-12-28 17:21:29.889  INFO 46034 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+?[0m?[0;34m2022-12-28 17:21:29.954  INFO 46034 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@698daff6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a085d02, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ed0128b, org.springframework.security.web.header.HeaderWriterFilter@770c3ca2, org.springframework.security.web.authentication.logout.LogoutFilter@2ee5fe1e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6f5f892c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b48361e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c4231e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cee52e2, org.springframework.security.web.session.SessionManagementFilter@390e814c, org.springframework.security.web.access.ExceptionTranslationFilter@1a7f2d34, org.springframework.security.web.access.intercept.AuthorizationFilter@213c812a]
+?[0m?[0;34m2022-12-28 17:21:30.959  INFO 46034 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (https) with context path ''
+?[0m?[0;34m2022-12-28 17:21:30.991  INFO 46034 --- [    Test worker] account.AccountServiceApplication        : Started AccountServiceApplication in 9.697 seconds (JVM running for 10.849)
+?[0m?[0;34mCN=accountant_service, OU=accountant_service, O=accountant_service, L=accountant_service, ST=accountant_service, C=cz SHA256withRSA
+?[0m</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 28 Dec 2022, 17:21:31</p>
+</div>
+</div>
+</body>
+</html>
